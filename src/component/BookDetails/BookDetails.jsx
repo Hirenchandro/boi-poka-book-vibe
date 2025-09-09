@@ -18,6 +18,7 @@ const BookDetails = () => {
     <div className="my-12">
       <h1>Book details Here. Name: {bookName} </h1>
       <img className="w-36" src={image} alt="" />
+
       <br />
       <button
         onClick={() => handleMarkAsRead(bookId)}
@@ -25,7 +26,7 @@ const BookDetails = () => {
       >
         Mark As Read
       </button>
-      <button className="btn btn-accent">WishList</button>
+      <button className="btn btn-accent"> Add to Wish List</button>
     </div>
   );
 };
